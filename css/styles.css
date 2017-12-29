@@ -1,0 +1,176 @@
+#btn_header {
+    padding: 0.7%;
+    background: #1c51af;
+    color: white;
+    height: 32px;
+    position: fixed;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+#app_name {
+    float: left;
+    background-image: url("https://cdn.syncfusion.com/content/images/HomePage-new/optimizedImages/mob/Syncfusion-Logo-white.png");
+    height: 40px;
+    width: 31px;
+    background-repeat: no-repeat;
+}
+
+.CodeMirror {
+    font-family: monospace;
+    height: 100%;
+    color: #000;
+}
+
+span#head_title {
+    margin-top: 1%;
+    margin-left: 0.5%;
+    font-size: 22px;
+    font-weight: bold;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    line-height: 40%;
+}
+
+ul.e-ul-left>li {
+    margin-top: -5%;
+    padding-left: 10px;
+}
+
+ul.e-ul-right>li {
+    float: right;
+}
+
+.e-btn,
+.e-tbtn,
+.e-split-btn {
+    font-weight: bold;
+}
+
+span.e-icon.e-expand.e-h-arrow.e-arrow-sans-right {
+    display: none !important;
+}
+
+span.e-icon.e-collapse.e-h-arrow.e-arrow-sans-left {
+    display: none !important;
+}
+
+.e-ul-left {
+    list-style-type: none;
+    margin-bottom: 0px;
+    display: flex;
+    float: left;
+    margin-top: 1%;
+}
+
+.e-ul-right {
+    height: max-content;
+    list-style-type: none;
+}
+
+.editor-font {
+    font-family: 'e-icons';
+}
+
+.e-icon:before {
+    font-size: 20px;
+}
+
+span.e-icon.e-media-play {
+    float: left;
+    color: white !important;
+}
+
+span.e-icon {
+    width: 20px !important;
+    line-height: 0.8 !important;
+}
+
+.title_pane_left {
+    padding-top: 4%;
+}
+
+button#run_btn,
+button#clear_btn {
+    font-size: 14px;
+    height: 22px;
+    width: 100%;
+    border: none;
+    background: none repeat scroll 0 0 transparent;
+    color: white;
+}
+
+span.run_btn_txt {
+    padding-left: 5px;
+}
+
+body {
+    margin: 0px;
+}
+
+.e-btn.e-select:focus {
+    box-shadow: none;
+}
+
+.deprecated_msg {
+    height: 100%;
+    width: 100%;
+}
+
+textarea#depricated_txt {
+    width: 99.5%;
+    height: 100%;
+    color: red;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+    border: none !important;
+}
+
+div#deprecated_ontainer {
+    padding: 3%;
+    overflow: hidden;
+}
+
+span#depric_header {
+    font-size: 18px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: segoe ui;
+}
+
+span.e-icon.e-expand.e-v-arrow.e-arrow-sans-down {
+    display: none !important;
+}
+
+span.e-icon.e-collapse.e-v-arrow.e-arrow-sans-up {
+    display: none !important;
+}
+
+h3 {
+    color: green;
+}
+
+span.e-icon.e-media-play {
+    padding: 3px;
+}
+
+.e-btn.e-select, .e-btn.e-select:hover {
+    box-shadow: none;
+    border-radius: none;
+}
+.e-btn.e-btn-normal .e-icon {
+    padding: 5px;
+}
+
+.e-select{
+    line-height: 175%;
+}

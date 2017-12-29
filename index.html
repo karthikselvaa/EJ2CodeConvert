@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Essential Studio Converter for ej2">
+    <meta name="author" content="Syncfusion">
+    <title>Essential EJ2 Converter</title>
+    <link rel="stylesheet" href="css/material/ej.web.all.min.css" />
+    <link rel="stylesheet" href="scripts/codemirror.all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="scripts/jquery-3.1.1.min.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="scripts/codemirror.all.min.js">
+    </script>
+    <script src="scripts/active-line.js">
+    </script>
+    <script src="scripts/foldcode.js">
+    </script>
+    <script src="scripts/jsrender.min.js"></script>
+    <script src="scripts/ej.web.all.min.js">
+    </script>
+</head>
+
+<body>
+    <div id="btn_header">
+        <div id="header_left">
+            <div id="app_name"> </div>
+            <span id="head_title">Essential EJ2 Converter</span>
+            <ul class="e-ul-left">
+                <li><button id="run_btn">
+                                    <span class="e-icon e-media-play"></span>
+                                    <span class="run_btn_txt">CONVERT</span>
+                                </button> </li>
+                <li><button id="clear_btn"> CLEAR</button></li>
+            </ul>
+        </div>
+        <div id="header_right">
+            <ul class="e-ul-right">
+                <li><span class="title_pane_right"></span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="converterContainer">
+            <div id="pannel_Container">
+                <div id="outterSpliter">
+                    <div id="content_splitter">
+                        <div id="left_pane">
+                            <textarea id="ej1" style="height:98%;width:99%; display:none;"></textarea>
+                        </div>
+                        <div id="right_pane">
+                            <textarea id="ej2" style="height:98%;width:99%;display:none">
+                        </textarea>
+                        </div>
+                    </div>
+                    <div id="deprecated_ontainer" class="deprecated_msg">
+                        <span id="depric_header">
+                            Depricated Properties!
+                        </span>
+                        <textarea id="depricated_txt">
+            
+                        </textarea>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <footer>
+        <p style="margin:1% 32%;">&copy; - <em><b> Code Maestros</b></em>
+            <font style="font-family: segoe ui;"> (Syncfusion Hackathon'17) - <span id="date"></span> </font>
+        </p>
+    </footer>
+    <script>
+        document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+    </script>
+</body>
+
+</html>
